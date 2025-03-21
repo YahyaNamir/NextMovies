@@ -57,11 +57,11 @@ const CategoriesList = [
         description: 'Discover futuristic worlds and mind-blowing sci-fi adventures',
         queryFn: discoverMovies({ with_genres: '878', sort_by: 'vote_count.desc' }),
     },
-    {
-        title: 'Best Crime Movies',
-        description: 'Uncover the best crime thrillers packed with suspense and mystery',
-        queryFn: discoverMovies({ with_genres: '80' }),
-    },
+    // {
+    //     title: 'Best Crime Movies',
+    //     description: 'Uncover the best crime thrillers packed with suspense and mystery',
+    //     queryFn: discoverMovies({ with_genres: '80' }),
+    // },
 ];
 
 export default async function Home() {
